@@ -61,7 +61,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="404.html" />
-    <Content Include="about.html" />
     <Content Include="company.html" />
     <Content Include="contact.html" />
     <Content Include="css\blue - Copy.css" />
