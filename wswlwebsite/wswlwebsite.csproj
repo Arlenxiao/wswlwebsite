@@ -1,0 +1,514 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{02F1E108-D7EF-4E71-B26A-2D024E661658}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>wswlwebsite</RootNamespace>
+    <AssemblyName>wswlwebsite</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="404.html" />
+    <Content Include="about.html" />
+    <Content Include="company.html" />
+    <Content Include="contact.html" />
+    <Content Include="css\blue - Copy.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\camera.css" />
+    <Content Include="css\color1.css" />
+    <Content Include="css\color2.css" />
+    <Content Include="css\color3.css" />
+    <Content Include="css\color4.css" />
+    <Content Include="css\color5.css" />
+    <Content Include="css\color6.css" />
+    <Content Include="css\color7.css" />
+    <Content Include="css\color8.css" />
+    <Content Include="css\docs.css" />
+    <Content Include="css\elements.css" />
+    <Content Include="css\es-carousel.css" />
+    <Content Include="css\footer-color.css" />
+    <Content Include="css\ie.css" />
+    <Content Include="css\inner.css" />
+    <Content Include="css\portfolio-shape.css" />
+    <Content Include="css\portfolio.css" />
+    <Content Include="css\prettyphoto.css" />
+    <Content Include="css\responsive.css" />
+    <Content Include="css\rs-plugin\assets\arrowleft.png" />
+    <Content Include="css\rs-plugin\assets\arrowright.png" />
+    <Content Include="css\rs-plugin\assets\arrow_left.png" />
+    <Content Include="css\rs-plugin\assets\arrow_left2.png" />
+    <Content Include="css\rs-plugin\assets\arrow_right.png" />
+    <Content Include="css\rs-plugin\assets\arrow_right2.png" />
+    <Content Include="css\rs-plugin\assets\boxed_bgtile.png" />
+    <Content Include="css\rs-plugin\assets\bullet.png" />
+    <Content Include="css\rs-plugin\assets\bullets.png" />
+    <Content Include="css\rs-plugin\assets\bullets2.png" />
+    <Content Include="css\rs-plugin\assets\bullet_boxed.png" />
+    <Content Include="css\rs-plugin\assets\coloredbg.png" />
+    <Content Include="css\rs-plugin\assets\large_left.png" />
+    <Content Include="css\rs-plugin\assets\large_right.png" />
+    <Content Include="css\rs-plugin\assets\loader.gif" />
+    <Content Include="css\rs-plugin\assets\navigdots.png" />
+    <Content Include="css\rs-plugin\assets\navigdots_bgtile.png" />
+    <Content Include="css\rs-plugin\assets\shadow1.png" />
+    <Content Include="css\rs-plugin\assets\shadow2.png" />
+    <Content Include="css\rs-plugin\assets\shadow3.png" />
+    <Content Include="css\rs-plugin\assets\small_left.png" />
+    <Content Include="css\rs-plugin\assets\small_left_boxed.png" />
+    <Content Include="css\rs-plugin\assets\small_right.png" />
+    <Content Include="css\rs-plugin\assets\small_right_boxed.png" />
+    <Content Include="css\rs-plugin\assets\timer.png" />
+    <Content Include="css\rs-plugin\captions.css" />
+    <Content Include="css\rs-plugin\preview.css" />
+    <Content Include="css\rs-plugin\settings.css" />
+    <Content Include="css\rs-plugin\style.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\topcolor1.css" />
+    <Content Include="css\topcolor2.css" />
+    <Content Include="css\topcolor3.css" />
+    <Content Include="css\topcolor4.css" />
+    <Content Include="css\topcolor5.css" />
+    <Content Include="css\topcolor6.css" />
+    <Content Include="css\topcolor7.css" />
+    <Content Include="css\topcolor8.css" />
+    <Content Include="faq.html" />
+    <Content Include="font\fontawesome-webfont.svg" />
+    <Content Include="font\Museo_Slab_500-webfont.svg" />
+    <Content Include="img\1.jpg" />
+    <Content Include="img\2.jpg" />
+    <Content Include="img\3.jpg" />
+    <Content Include="img\4.jpg" />
+    <Content Include="img\404.png" />
+    <Content Include="img\5.jpg" />
+    <Content Include="img\6 - Copy.jpg" />
+    <Content Include="img\6.jpg" />
+    <Content Include="img\7.jpg" />
+    <Content Include="img\8.jpg" />
+    <Content Include="img\accordion-close.png" />
+    <Content Include="img\accordion-open.png" />
+    <Content Include="img\banner-1.png" />
+    <Content Include="img\banner-2.png" />
+    <Content Include="img\banner-3.png" />
+    <Content Include="img\banner-4.png" />
+    <Content Include="img\banner-5.png" />
+    <Content Include="img\banner-6.png" />
+    <Content Include="img\bird-small-dark.png" />
+    <Content Include="img\bird-small.png" />
+    <Content Include="img\blockquote.png" />
+    <Content Include="img\blue_tr_bg.png" />
+    <Content Include="img\border-item.gif" />
+    <Content Include="img\border-item.png" />
+    <Content Include="img\border-ul-li.gif" />
+    <Content Include="img\border-ul-li.png" />
+    <Content Include="img\btn_bg.png" />
+    <Content Include="img\button-shadow.png" />
+    <Content Include="img\camera-loader.gif" />
+    <Content Include="img\canyin.jpg" />
+    <Content Include="img\comments-bg.png" />
+    <Content Include="img\content.gif" />
+    <Content Include="img\date.jpg" />
+    <Content Include="img\design-down.png" />
+    <Content Include="img\design-up.png" />
+    <Content Include="img\es-carousel-img2.jpg" />
+    <Content Include="img\es-carousel-img4.jpg" />
+    <Content Include="img\favicon-bak.ico" />
+    <Content Include="img\favicon.ico" />
+    <Content Include="img\glyphicons-halflings-white.png" />
+    <Content Include="img\glyphicons-halflings.png" />
+    <Content Include="img\home\1.jpg" />
+    <Content Include="img\home\2.jpg" />
+    <Content Include="img\home\3.jpg" />
+    <Content Include="img\home\4.jpg" />
+    <Content Include="img\hunyan.jpg" />
+    <Content Include="img\ico-dark-home.png" />
+    <Content Include="img\ico-dark-mail.png" />
+    <Content Include="img\ico-dark-phone.png" />
+    <Content Include="img\ico-formats.png" />
+    <Content Include="img\ico-home.png" />
+    <Content Include="img\ico-mail.png" />
+    <Content Include="img\ico-phone.png" />
+    <Content Include="img\icons\ajax-loader.gif" />
+    <Content Include="img\icons\file.png" />
+    <Content Include="img\icons\folder-closed.png" />
+    <Content Include="img\icons\folder-open_16.png" />
+    <Content Include="img\icons\folder.png" />
+    <Content Include="img\icons\icon-box-error.png" />
+    <Content Include="img\icons\icon-box-info.png" />
+    <Content Include="img\icons\icon-box-notice.png" />
+    <Content Include="img\icons\icon-box-success.png" />
+    <Content Include="img\icons\list-arrow-2.png" />
+    <Content Include="img\icons\list-arrow.png" />
+    <Content Include="img\icons\list-check-2.png" />
+    <Content Include="img\icons\list-check.png" />
+    <Content Include="img\icons\list-circle.png" />
+    <Content Include="img\icons\list-dash.png" />
+    <Content Include="img\icons\list-plus.png" />
+    <Content Include="img\icons\list-star.png" />
+    <Content Include="img\icons\minus.gif" />
+    <Content Include="img\icons\plus.gif" />
+    <Content Include="img\icons\qoute.png" />
+    <Content Include="img\icons\top-icon1.png" />
+    <Content Include="img\icons\top-icon2.png" />
+    <Content Include="img\icons\top-icon3.png" />
+    <Content Include="img\icons\top-icon4.png" />
+    <Content Include="img\icons\treeview-black-line.gif" />
+    <Content Include="img\icons\treeview-black.gif" />
+    <Content Include="img\icons\treeview-default-line.gif" />
+    <Content Include="img\icons\treeview-default.gif" />
+    <Content Include="img\icons\treeview-famfamfam-line.gif" />
+    <Content Include="img\icons\treeview-famfamfam.gif" />
+    <Content Include="img\icons\treeview-gray-line.gif" />
+    <Content Include="img\icons\treeview-gray.gif" />
+    <Content Include="img\icons\treeview-red-line.gif" />
+    <Content Include="img\icons\treeview-red.gif" />
+    <Content Include="img\internet_link.png" />
+    <Content Include="img\jade.jpg" />
+    <Content Include="img\kf1.jpg" />
+    <Content Include="img\kf2.jpg" />
+    <Content Include="img\kf3.jpg" />
+    <Content Include="img\kf4.jpg" />
+    <Content Include="img\leader.jpg" />
+    <Content Include="img\li-marker.gif" />
+    <Content Include="img\link1_marker.png" />
+    <Content Include="img\link\1.png" />
+    <Content Include="img\link\2.png" />
+    <Content Include="img\link\3.png" />
+    <Content Include="img\link\4.png" />
+    <Content Include="img\link\5.png" />
+    <Content Include="img\link\6.png" />
+    <Content Include="img\logo-bak.png" />
+    <Content Include="img\logo.png" />
+    <Content Include="img\logo1.png" />
+    <Content Include="img\m-1.jpg" />
+    <Content Include="img\mark.jpg" />
+    <Content Include="img\marker-1.png" />
+    <Content Include="img\marker.png" />
+    <Content Include="img\menu_arrow.png" />
+    <Content Include="img\nav-alt.gif" />
+    <Content Include="img\nav-li-hover.png" />
+    <Content Include="img\page1-img12.jpg" />
+    <Content Include="img\page1-img13.jpg" />
+    <Content Include="img\page1-img2.jpg" />
+    <Content Include="img\page1-img3.jpg" />
+    <Content Include="img\page1-img4.jpg" />
+    <Content Include="img\page1-img5.jpg" />
+    <Content Include="img\page1-img6.jpg" />
+    <Content Include="img\page2-img1.jpg" />
+    <Content Include="img\part-item-hover.gif" />
+    <Content Include="img\part-item-hover.png" />
+    <Content Include="img\pattern-dot.png" />
+    <Content Include="img\pattern-line.png" />
+    <Content Include="img\patterns\dark\pattern1.png" />
+    <Content Include="img\patterns\dark\pattern2.png" />
+    <Content Include="img\patterns\dark\pattern3.png" />
+    <Content Include="img\patterns\dark\pattern4.png" />
+    <Content Include="img\patterns\dark\pattern5.png" />
+    <Content Include="img\patterns\dark\pattern6.png" />
+    <Content Include="img\patterns\dark\pattern7.png" />
+    <Content Include="img\patterns\dark\pattern8.png" />
+    <Content Include="img\patterns\light\pattern1.png" />
+    <Content Include="img\patterns\light\pattern2.png" />
+    <Content Include="img\patterns\light\pattern3.png" />
+    <Content Include="img\patterns\light\pattern4.png" />
+    <Content Include="img\patterns\light\pattern5.png" />
+    <Content Include="img\patterns\light\pattern6.png" />
+    <Content Include="img\patterns\light\pattern7.png" />
+    <Content Include="img\patterns\light\pattern8.png" />
+    <Content Include="img\portfolio\p-big-1.jpg" />
+    <Content Include="img\portfolio\p-big-2.jpg" />
+    <Content Include="img\portfolio\p1.png" />
+    <Content Include="img\post-sub.png" />
+    <Content Include="img\prettyphoto\dark_rounded\btnNext.png" />
+    <Content Include="img\prettyphoto\dark_rounded\btnPrevious.png" />
+    <Content Include="img\prettyphoto\dark_rounded\contentPattern.png" />
+    <Content Include="img\prettyphoto\dark_rounded\loader.gif" />
+    <Content Include="img\prettyphoto\dark_rounded\sprite.png" />
+    <Content Include="img\prettyphoto\dark_square\btnNext.png" />
+    <Content Include="img\prettyphoto\dark_square\btnPrevious.png" />
+    <Content Include="img\prettyphoto\dark_square\loader.gif" />
+    <Content Include="img\prettyphoto\dark_square\sprite.png" />
+    <Content Include="img\prettyphoto\default\default_thumb.png" />
+    <Content Include="img\prettyphoto\default\loader.gif" />
+    <Content Include="img\prettyphoto\default\sprite.png" />
+    <Content Include="img\prettyphoto\default\sprite_next.png" />
+    <Content Include="img\prettyphoto\default\sprite_prev.png" />
+    <Content Include="img\prettyphoto\default\sprite_x.png" />
+    <Content Include="img\prettyphoto\default\sprite_y.png" />
+    <Content Include="img\prettyphoto\facebook\btnNext.png" />
+    <Content Include="img\prettyphoto\facebook\btnPrevious.png" />
+    <Content Include="img\prettyphoto\facebook\contentPatternBottom.png" />
+    <Content Include="img\prettyphoto\facebook\contentPatternLeft.png" />
+    <Content Include="img\prettyphoto\facebook\contentPatternRight.png" />
+    <Content Include="img\prettyphoto\facebook\contentPatternTop.png" />
+    <Content Include="img\prettyphoto\facebook\default_thumbnail.gif" />
+    <Content Include="img\prettyphoto\facebook\loader.gif" />
+    <Content Include="img\prettyphoto\facebook\sprite.png" />
+    <Content Include="img\prettyphoto\light_rounded\btnNext.png" />
+    <Content Include="img\prettyphoto\light_rounded\btnPrevious.png" />
+    <Content Include="img\prettyphoto\light_rounded\loader.gif" />
+    <Content Include="img\prettyphoto\light_rounded\sprite.png" />
+    <Content Include="img\prettyphoto\light_square\btnNext.png" />
+    <Content Include="img\prettyphoto\light_square\btnPrevious.png" />
+    <Content Include="img\prettyphoto\light_square\sprite.png" />
+    <Content Include="img\price-list.png" />
+    <Content Include="img\products\rttc.jpg" />
+    <Content Include="img\products\znkg.jpg" />
+    <Content Include="img\products\人体感应正面.png" />
+    <Content Include="img\products\人体感应背面.png" />
+    <Content Include="img\products\声光报警.png" />
+    <Content Include="img\products\声光报警2.png" />
+    <Content Include="img\products\无线学习板.png" />
+    <Content Include="img\products\无线学习板2.png" />
+    <Content Include="img\products\无线门磁.png" />
+    <Content Include="img\products\无线门磁2.png" />
+    <Content Include="img\products\网关.png" />
+    <Content Include="img\products\网关2.png" />
+    <Content Include="img\products\触摸开关.png" />
+    <Content Include="img\products\触摸开关1.png" />
+    <Content Include="img\products\触摸开关2.png" />
+    <Content Include="img\responsive-illustrations.png" />
+    <Content Include="img\rs-slider\slides\bg\1.jpg" />
+    <Content Include="img\rs-slider\slides\bg\2.jpg" />
+    <Content Include="img\rs-slider\slides\bg\3.jpg" />
+    <Content Include="img\rs-slider\slides\bg\4.jpg" />
+    <Content Include="img\rs-slider\slides\bg\5.jpg" />
+    <Content Include="img\rs-slider\slides\bg\6.jpg" />
+    <Content Include="img\rs-slider\slides\blue.png" />
+    <Content Include="img\rs-slider\slides\boy1.png" />
+    <Content Include="img\rs-slider\slides\c.png" />
+    <Content Include="img\rs-slider\slides\check.png" />
+    <Content Include="img\rs-slider\slides\chrome.png" />
+    <Content Include="img\rs-slider\slides\e.png" />
+    <Content Include="img\rs-slider\slides\firefox.png" />
+    <Content Include="img\rs-slider\slides\food.png" />
+    <Content Include="img\rs-slider\slides\futon_bed.png" />
+    <Content Include="img\rs-slider\slides\girl2.png" />
+    <Content Include="img\rs-slider\slides\girl4.png" />
+    <Content Include="img\rs-slider\slides\glare.png" />
+    <Content Include="img\rs-slider\slides\green.png" />
+    <Content Include="img\rs-slider\slides\horizontal.png" />
+    <Content Include="img\rs-slider\slides\horizontal2.png" />
+    <Content Include="img\rs-slider\slides\ie.png" />
+    <Content Include="img\rs-slider\slides\inclined.png" />
+    <Content Include="img\rs-slider\slides\lap-bak.png" />
+    <Content Include="img\rs-slider\slides\lap.png" />
+    <Content Include="img\rs-slider\slides\leftloweralign.png" />
+    <Content Include="img\rs-slider\slides\logo.png" />
+    <Content Include="img\rs-slider\slides\man4.png" />
+    <Content Include="img\rs-slider\slides\mazda.png" />
+    <Content Include="img\rs-slider\slides\night.jpg" />
+    <Content Include="img\rs-slider\slides\orange.png" />
+    <Content Include="img\rs-slider\slides\rightalign.png" />
+    <Content Include="img\rs-slider\slides\rightupperalign.png" />
+    <Content Include="img\rs-slider\slides\s-big.png" />
+    <Content Include="img\rs-slider\slides\s-last.png" />
+    <Content Include="img\rs-slider\slides\s.png" />
+    <Content Include="img\rs-slider\slides\slideimg1.png" />
+    <Content Include="img\rs-slider\slides\success-bak.png" />
+    <Content Include="img\rs-slider\slides\success.png" />
+    <Content Include="img\rs-slider\slides\tooltip-10.png" />
+    <Content Include="img\rs-slider\slides\tooltip-30.png" />
+    <Content Include="img\rs-slider\slides\tooltip-60.png" />
+    <Content Include="img\rs-slider\slides\u.png" />
+    <Content Include="img\rs-slider\slides\vimeo-logo.png" />
+    <Content Include="img\rs-slider\slides\vip.jpg" />
+    <Content Include="img\rs-slider\slides\youtube-logo.png" />
+    <Content Include="img\shadow-bottom.png" />
+    <Content Include="img\social_icons\aol.png" />
+    <Content Include="img\social_icons\apple.png" />
+    <Content Include="img\social_icons\blogger.png" />
+    <Content Include="img\social_icons\deviantart.png" />
+    <Content Include="img\social_icons\digg.png" />
+    <Content Include="img\social_icons\dribbble.png" />
+    <Content Include="img\social_icons\facebook.png" />
+    <Content Include="img\social_icons\flickr.png" />
+    <Content Include="img\social_icons\forrst.png" />
+    <Content Include="img\social_icons\googleplus.png" />
+    <Content Include="img\social_icons\icon-facebook.png" />
+    <Content Include="img\social_icons\icon-skype.png" />
+    <Content Include="img\social_icons\icon-twitter.png" />
+    <Content Include="img\social_icons\icon-youtube.png" />
+    <Content Include="img\social_icons\lastfm.png" />
+    <Content Include="img\social_icons\mail.png" />
+    <Content Include="img\social_icons\newsvine.png" />
+    <Content Include="img\social_icons\rss.png" />
+    <Content Include="img\social_icons\sharethis.png" />
+    <Content Include="img\social_icons\skype.png" />
+    <Content Include="img\social_icons\social-sprite-team-1.png" />
+    <Content Include="img\social_icons\social-sprite-team-2.png" />
+    <Content Include="img\social_icons\social-sprite-team-3.png" />
+    <Content Include="img\social_icons\social-sprite-team-4.png" />
+    <Content Include="img\social_icons\social-sprite-team-5.png" />
+    <Content Include="img\social_icons\social-sprite-team-6.png" />
+    <Content Include="img\social_icons\social-sprite-team-7.png" />
+    <Content Include="img\social_icons\social-sprite-team-8.png" />
+    <Content Include="img\social_icons\stumbleupon.png" />
+    <Content Include="img\social_icons\tumblr.png" />
+    <Content Include="img\social_icons\twitter.png" />
+    <Content Include="img\social_icons\vimeo.png" />
+    <Content Include="img\social_icons\wordpress.png" />
+    <Content Include="img\social_icons\youtube.png" />
+    <Content Include="img\tail-nav.gif" />
+    <Content Include="img\tail-nav.png" />
+    <Content Include="img\tail-search.gif" />
+    <Content Include="img\toggle-down-header.png" />
+    <Content Include="img\totop.gif" />
+    <Content Include="img\transparent-dark2.png" />
+    <Content Include="img\ver_separator.png" />
+    <Content Include="img\video_link.png" />
+    <Content Include="img\yanhui.jpg" />
+    <Content Include="img\yule.jpg" />
+    <Content Include="img\zoom.png" />
+    <Content Include="index.html" />
+    <Content Include="index5.html" />
+    <Content Include="js\accordion.js" />
+    <Content Include="js\application.js" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\boxgrid.js" />
+    <Content Include="js\camera.js" />
+    <Content Include="js\carousel.js" />
+    <Content Include="js\custom.js" />
+    <Content Include="js\forms.js" />
+    <Content Include="js\jquery.cookie.js" />
+    <Content Include="js\jquery.easing.1.3.js" />
+    <Content Include="js\jquery.elastislide.js" />
+    <Content Include="js\jquery.gridrotator.js" />
+    <Content Include="js\jquery.isotope.min.js" />
+    <Content Include="js\jquery.js" />
+    <Content Include="js\jquery.mobile.customized.min.js" />
+    <Content Include="js\jquery.mobilemenu.js" />
+    <Content Include="js\jquery.prettyphoto.js" />
+    <Content Include="js\jquery.quicksand.js" />
+    <Content Include="js\jquery.sliderTabs.js" />
+    <Content Include="js\jquery.sliderTabs.min.js" />
+    <Content Include="js\jquery.ui.totop.js" />
+    <Content Include="js\nav-small.js" />
+    <Content Include="js\PIE.htc" />
+    <Content Include="js\prettify.js" />
+    <Content Include="js\rs-plugin\jquery.themepunch.plugins.min.js" />
+    <Content Include="js\rs-plugin\jquery.themepunch.revolution.min.js" />
+    <Content Include="js\sitemap.js" />
+    <Content Include="js\superfish.js" />
+    <Content Include="js\tabs.js" />
+    <Content Include="produce.html" />
+    <Content Include="produce_cmkg.html" />
+    <Content Include="produce_qjkg.html" />
+    <Content Include="produce_rtgy.html" />
+    <Content Include="produce_sgbj.html" />
+    <Content Include="produce_wgGW.html" />
+    <Content Include="produce_wxmc.html" />
+    <Content Include="produce_wxxxb.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="font\fontawesome-webfont.eot" />
+    <Content Include="font\fontawesome-webfont.ttf" />
+    <Content Include="font\fontawesome-webfont.woff" />
+    <Content Include="font\FontAwesome.otf" />
+    <Content Include="font\museo_slab_300-webfont.eot" />
+    <Content Include="font\museo_slab_300-webfont.ttf" />
+    <Content Include="font\museo_slab_500-webfont.eot" />
+    <Content Include="font\museo_slab_500-webfont.ttf" />
+    <Content Include="font\Museo_Slab_500-webfont2.eot" />
+    <Content Include="font\Museo_Slab_500-webfont2.ttf" />
+    <Content Include="font\Museo_Slab_500-webfont2.woff" />
+    <Content Include="font\proximanova-sbold-webfont.eot" />
+    <Content Include="font\proximanova-sbold-webfont.ttf" />
+    <Content Include="font\proximanova-webfont.eot" />
+    <Content Include="font\proximanova-webfont.ttf" />
+    <Content Include="img\icons\Thumbs.db" />
+    <Content Include="img\portfolio\Thumbs.db" />
+    <Content Include="img\prettyphoto\dark_rounded\Descr.WD3" />
+    <Content Include="img\prettyphoto\dark_square\Descr.WD3" />
+    <Content Include="img\prettyphoto\default\Descr.WD3" />
+    <Content Include="img\prettyphoto\facebook\Descr.WD3" />
+    <Content Include="img\prettyphoto\light_rounded\Descr.WD3" />
+    <Content Include="img\prettyphoto\light_square\Descr.WD3" />
+    <Content Include="img\rs-slider\slides\bg\Thumbs.db" />
+    <Content Include="img\social_icons\Thumbs.db" />
+    <Content Include="img\Thumbs.db" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>16258</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:16258/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
