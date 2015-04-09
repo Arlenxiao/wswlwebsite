@@ -320,7 +320,12 @@
     <Content Include="img\prettyphoto\light_square\btnPrevious.png" />
     <Content Include="img\prettyphoto\light_square\sprite.png" />
     <Content Include="img\price-list.png" />
+    <Content Include="img\products\rtgy.jpg" />
     <Content Include="img\products\rttc.jpg" />
+    <Content Include="img\products\sgbj.jpg" />
+    <Content Include="img\products\wg_b.png" />
+    <Content Include="img\products\wxmc.jpg" />
+    <Content Include="img\products\wxxxb.png" />
     <Content Include="img\products\znkg.jpg" />
     <Content Include="img\products\人体感应正面.png" />
     <Content Include="img\products\人体感应背面.png" />
@@ -494,7 +499,6 @@
     <Content Include="img\prettyphoto\light_square\Descr.WD3" />
     <Content Include="img\rs-slider\slides\bg\Thumbs.db" />
     <Content Include="img\social_icons\Thumbs.db" />
-    <Content Include="img\Thumbs.db" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -226,29 +226,37 @@ ul { list-style: none outside none; margin: 0; }
 
 .banners_cycle li .bot { height:8px; overflow:hidden; font-size:0; line-height:0; background-repeat:no-repeat; background-position:left top; }
 
-.banners_cycle .style-1 { z-index:6; }
+.banners_cycle .style-1 { z-index:8; }
 
-.banners_cycle .style-2 { z-index:5; }
+.banners_cycle .style-2 { z-index:7; }
 
-.banners_cycle .style-3 { z-index:4; }
+.banners_cycle .style-3 { z-index:6; }
 
-.banners_cycle .style-4 { z-index:3; }
+.banners_cycle .style-4 { z-index:5; }
 
-.banners_cycle .style-5 { z-index:2; }
+.banners_cycle .style-5 { z-index:4; }
 
-.banners_cycle .style-6 { z-index:1; }
+.banners_cycle .style-6 { z-index:3; }
 
-.banners_cycle .style-1 .tail { background: none repeat scroll 0 0 #F25555; }
+.banners_cycle .style-7 { z-index:2; }
+
+.banners_cycle .style-8 { z-index:1; }
+
+.banners_cycle .style-8 .tail { background: none repeat scroll 0 0 #F25555; }
+
+.banners_cycle .style-7 .tail { background: none repeat scroll 0 0 #F2A355; }
+
+.banners_cycle .style-6 .tail { background: none repeat scroll 0 0 #E6CD50; }
+
+.banners_cycle .style-5 .tail { background: none repeat scroll 0 0 #F08080; }
+
+.banners_cycle .style-4 .tail { background: none repeat scroll 0 0 #55A4F2; }
+
+.banners_cycle .style-3 .tail { background: none repeat scroll 0 0 #6954D1; }
 
 .banners_cycle .style-2 .tail { background: none repeat scroll 0 0 #F2A355; }
 
-.banners_cycle .style-3 .tail { background: none repeat scroll 0 0 #E6CD50; }
-
-.banners_cycle .style-4 .tail { background: none repeat scroll 0 0 #87C442; }
-
-.banners_cycle .style-5 .tail { background: none repeat scroll 0 0 #55A4F2; }
-
-.banners_cycle .style-6 .tail { background: none repeat scroll 0 0 #6954D1; }
+.banners_cycle .style-1 .tail { background: none repeat scroll 0 0 #87C442; }
 
 .banners_cycle li h4 { color: #fff; font-size: 24px; margin-bottom: 20px; }
 
