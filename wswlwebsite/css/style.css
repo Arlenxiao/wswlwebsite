@@ -11,15 +11,6 @@ color:#FFF;
 background:#169FE6;
 color:#FFF;
 }
- @font-face {
- font-family: 'MuseoSlab500Regular';
- src: url('../font/Museo_Slab_500-webfont2.eot');
- src:
- url('../font/Museo_Slab_500-webfont2.eot') format('embedded-opentype'), url('../font/Museo_Slab_500-webfont.svg') format('svg'), url('../font/Museo_Slab_500-webfont2.woff') format('woff'), url('../font/Museo_Slab_500-webfont2.ttf') format('truetype');
- font-weight: normal;
- font-style: normal;
-}
-
 /*------ template stylization ------*/
 /* headings, text */
 h1, h2, h3, h4, h5, h6 { font-family: 'MuseoSlab500Regular', arial, helvetica, sans-serif; color: #111111; font-weight: normal; line-height: 1.3em; }
