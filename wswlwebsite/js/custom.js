@@ -75,16 +75,6 @@ $(document).ready(function() {
     $('#tweet-list').hide();
     var user = 'envato'; // Set your twitter id
     var count = '2'; // How many feeds do you want. Recommended Max 10 Twitter Api
-
-    $.getJSON('http://api.twitter.com/1/statuses/user_timeline/envato.json?screen_name=' + user + '&count=' + count + '&callback=?',
-    function(tweetdata) {
-        var tl = $("#tweet-list");
-        $.each(tweetdata,
-        function(i, tweet) {
-            tl.append("<li>&ldquo;" + urlToLink(tweet.text) + "&rdquo;&ndash; " + relTime(tweet.created_at) + "</li>");
-        });
-    });
-	
     setTimeout(function() {
         $('.tweets p').hide();
         $('#tweet-list').show();

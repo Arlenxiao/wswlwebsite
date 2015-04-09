@@ -500,6 +500,9 @@
     <Content Include="img\rs-slider\slides\bg\Thumbs.db" />
     <Content Include="img\social_icons\Thumbs.db" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="font\fontawesome-webfont.woff2" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
