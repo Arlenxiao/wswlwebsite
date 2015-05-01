@@ -465,12 +465,14 @@
     <Content Include="js\superfish.js" />
     <Content Include="js\tabs.js" />
     <Content Include="produce.html" />
-    <Content Include="produce_cmkg.html" />
-    <Content Include="produce_qjkg.html" />
-    <Content Include="produce_rtgy.html" />
-    <Content Include="produce_sgbj.html" />
-    <Content Include="produce_wgGW.html" />
-    <Content Include="produce_wxmc.html" />
+    <Content Include="produce_K0221.html" />
+    <Content Include="produce_K0203.html" />
+    <Content Include="produce_C0611.html" />
+    <Content Include="produce_A0501.html" />
+    <Content Include="produce_A0541.html" />
+    <Content Include="produce_W0103.html" />
+    <Content Include="produce_A0571.html" />
+    <Content Include="produce_G0311.html" />
     <Content Include="produce_wxxxb.html" />
   </ItemGroup>
   <ItemGroup>
