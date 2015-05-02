@@ -1463,7 +1463,7 @@ button.btn.btn-mini, input[type="submit"].btn.btn-mini { *padding-top: 1px;
 
 .alert-block p + p { margin-top: 5px; }
 
-.nav { margin-left: 0; margin-bottom: 22px; list-style: none; }
+.nav { margin-left: 0; /*margin-bottom: 22px;*/ list-style: none; }
 
 .nav > li > a { display: block; }
 
