@@ -110,11 +110,14 @@
                                 <div class="img-border">
                                     <div id="myCarousel" class="carousel slide portfolio-single-slider">
                                         <div class="carousel-inner">
-                                            <div class="item active"><img class="img-circle pisize" alt="" src="img/products/网关.png">
+                                            <div class="item active">
+                                                <img class="img-circle pisize" alt="" src="img/products/网关.png">
                                             </div>
-                                            <div class="item"><img class="img-circle pisize" alt="" src="img/products/网关2.png">
+                                            <div class="item">
+                                                <img class="img-circle pisize" alt="" src="img/products/网关2.png">
                                             </div>
-                                            <div class="item"><img class="img-circle pisize" alt="" src="img/products/网关.png">
+                                            <div class="item">
+                                                <img class="img-circle pisize" alt="" src="img/products/网关.png">
                                             </div>
                                         </div>
                                         <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a> <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
@@ -124,12 +127,13 @@
                             <!-- 2 -->
                             <div class="span4">
                                 <div class="portfolio-single">
-                                    <div class="title1"><h4 class="indent-1 extra"></h4>
+                                    <div class="title"><h4 class="indent-1 extra">基本信息</h4>
                                     </div>
-                                    <h4 class="">产品名称:<em>网关</em></h4>
-                                    <h4 class="">产品型号:<em>W0103</em></h4>
-                                    <div class="title1"><h4 class="indent-1 extra">产品概述</h4>
-                                    </div>
+                                    <ul class="list-style-2">
+                                        <li class="arrow-list">产品名称 : 网关</li>
+                                        <li class="arrow-list">产品型号 : W0103</li>
+                                    </ul>
+                                    <div class="title"><h4 class="indent-1 extra">产品概述</h4></div>
                                     <p class="p0">
                                         W0103 无声物联网关是一款基于自主微网TinyNet无线通讯协议，可工作在2.4GHz、433MHz 和5GHz等频段上，具有250kbps、1Mbps 和2Mbps 的传输速率，传输距离在80-1600 米的范围内的通讯主机。自带以太网接口，通过微网协议把2.4G网络链接到局域网或Internet 中；通过无线路由或3G网络，你就可以使用手机或平板来控制基于微网协议的系列产品。本产品是无声物联智能家居系统的核心产品，可应用于家庭，办公，医院和酒店等场合。
                                     </p>
@@ -142,10 +146,10 @@
                 <div class="row">
                     <div role="tabpanel">
                         <!-- Nav tabs -->
-                        <ul class="nav nav-tabs" role="tablist">
-                            <li role="presentation" class="active"><a href="#features" aria-controls="features" role="tab" data-toggle="tab">产品特性</a></li>
-                            <li role="presentation"><a href="#parameter" aria-controls="parameter" role="tab" data-toggle="tab">基本参数</a></li>
-                            <li role="presentation"><a href="#note" aria-controls="note" role="tab" data-toggle="tab">注意事项</a></li>
+                        <ul class="tab-menu">
+                            <li class="active"><a href="#features">产品特性</a></li>
+                            <li class=""><a href="#parameter">基本参数</a></li>
+                            <li class=""><a href="#note">注意事项</a></li>
                         </ul>
                         <!-- Tab panes -->
                         <div class="tab-container">
@@ -198,7 +202,7 @@
                                             <a href="produce_W0103.html">
                                                 <img src="img/products/w0103.png" alt="" class="homeimage" />
                                             </a>
-                                           
+
                                         </div>
                                     </figure>
                                 </li>
@@ -292,7 +296,6 @@
                                 </div>
                                 <div class="clearfix"></div>
                             </form>
-
                         </div>
                     </div>
                 </div>
@@ -345,15 +348,15 @@
     <script type="text/javascript" src="js/boxgrid.js"></script>
     <script type="text/javascript" src="demo/switcher.js"></script>
     <script>
-    jQuery("#carousel-blog").elastislide({
-        imageW: 270,
-        minItems: 2,
-        speed: 600,
-        easing: "easeOutQuart",
-        margin: 30,
-        border: 0,
-        onClick: function () { }
-    });</script>
+        jQuery("#carousel-blog").elastislide({
+            imageW: 270,
+            minItems: 2,
+            speed: 600,
+            easing: "easeOutQuart",
+            margin: 30,
+            border: 0,
+            onClick: function () { }
+        });</script>
 
 </body>
 </html>
