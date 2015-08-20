@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -155,6 +156,7 @@
     <Content Include="img\8.jpg" />
     <Content Include="img\accordion-close.png" />
     <Content Include="img\accordion-open.png" />
+    <Content Include="img\android.png" />
     <Content Include="img\banner-1.png" />
     <Content Include="img\banner-2.png" />
     <Content Include="img\banner-3.png" />
@@ -428,6 +430,7 @@
     <Content Include="img\yule.jpg" />
     <Content Include="img\zoom.png" />
     <Content Include="index.html" />
+    <Content Include="download.html" />
     <Content Include="index5.html" />
     <Content Include="js\accordion.js" />
     <Content Include="js\application.js" />
@@ -498,6 +501,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="font\fontawesome-webfont.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="down\Wswl.RTM-v1.0.47.apk" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
