@@ -133,6 +133,13 @@
     <Content Include="css\topcolor6.css" />
     <Content Include="css\topcolor7.css" />
     <Content Include="css\topcolor8.css" />
+    <Content Include="css_os\animate.css" />
+    <Content Include="css_os\bootstrap.min.css" />
+    <Content Include="css_os\font-awesome.min.css" />
+    <Content Include="css_os\main.css" />
+    <Content Include="css_os\main.min.css" />
+    <Content Include="css_os\owl.carousel.css" />
+    <Content Include="css_os\owl.theme.min.css" />
     <Content Include="demo\bgimages\1.jpg" />
     <Content Include="demo\bgimages\2.jpg" />
     <Content Include="demo\bgimages\3.jpg" />
@@ -156,6 +163,7 @@
     <Content Include="font-awesome\css\font-awesome.min.css" />
     <Content Include="font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\flat-ui-icons-regular.svg" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="fonts\lato\lato-black.svg" />
     <Content Include="fonts\lato\lato-bold.svg" />
@@ -184,6 +192,13 @@
     <Content Include="img\banner-4.png" />
     <Content Include="img\banner-5.png" />
     <Content Include="img\banner-6.png" />
+    <Content Include="img\bg\bg-2.jpg" />
+    <Content Include="img\bg\bg-4.jpg" />
+    <Content Include="img\bg\contact-bg.jpg" />
+    <Content Include="img\bg\header-bg.jpg" />
+    <Content Include="img\bg\header-bg2.jpg" />
+    <Content Include="img\bg\header-bg_1.jpg" />
+    <Content Include="img\bg\number1.gif" />
     <Content Include="img\bird-small-dark.png" />
     <Content Include="img\bird-small.png" />
     <Content Include="img\blockquote.png" />
@@ -512,6 +527,14 @@
     <Content Include="img\transparent-dark2.png" />
     <Content Include="img\ver_separator.png" />
     <Content Include="img\video_link.png" />
+    <Content Include="img\work1.jpg" />
+    <Content Include="img\work2.jpg" />
+    <Content Include="img\work3.png" />
+    <Content Include="img\work4.jpg" />
+    <Content Include="img\work5.jpg" />
+    <Content Include="img\work6.jpg" />
+    <Content Include="img\work7.jpg" />
+    <Content Include="img\work8.png" />
     <Content Include="img\yanhui.jpg" />
     <Content Include="img\yule.jpg" />
     <Content Include="img\zoom.png" />
@@ -564,6 +587,17 @@
     <Content Include="js\s_uiMorphingButton_inflow.js" />
     <Content Include="js\s_wow.min.js" />
     <Content Include="js\tabs.js" />
+    <Content Include="js_os\bootstrap.min.js" />
+    <Content Include="js_os\isotope.pkgd.min.js" />
+    <Content Include="js_os\jquery-2.1.3.min.js" />
+    <Content Include="js_os\jquery.actual.min.js" />
+    <Content Include="js_os\jquery.isonscreen.js" />
+    <Content Include="js_os\jquery.onscreen.min.js" />
+    <Content Include="js_os\jqueryanimateNumber.min.js" />
+    <Content Include="js_os\main.js" />
+    <Content Include="js_os\main.min.js" />
+    <Content Include="js_os\owl.carousel.min.js" />
+    <Content Include="os.html" />
     <Content Include="produce.html" />
     <Content Include="produce_K0221.html" />
     <Content Include="produce_K0203.html" />
@@ -664,6 +698,14 @@
     <Content Include="fonts\lato\lato-regular.eot" />
     <Content Include="fonts\lato\lato-regular.ttf" />
     <Content Include="fonts\lato\lato-regular.woff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\pacifico.woff" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
